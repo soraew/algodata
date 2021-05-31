@@ -29,7 +29,7 @@ void preorder(int k, struct cell **S)
 
    printf("k :>> %d\n", k);
    q = S[k];
-   while(q!=NULL){
+   while(q != NULL){
       preorder(q->node, S);
       q = q -> next;
    }

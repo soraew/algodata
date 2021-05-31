@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "helpers.c"
 #define N 100
 #define B 10000
 
@@ -25,4 +26,4 @@ int main (int argc, char *argv[]) {
    // print_arr_arr(y, n, b+1);
    printf("first :>> %d\n", first);
    return 0;
-}
+} 
