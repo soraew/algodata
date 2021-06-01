@@ -13,8 +13,12 @@ int main (int argc, char *argv[]) {
    // struct cell *S[N];
    int root;
 
-   struct cell *S[N] = {1, 3, 6, NULL, NULL, NULL, 8, NULL, NULL, NULL};
+   struct cell *S[N];
    root = 0;
+
+   // どのようにしてSにデータを入力していけばいいかわからない
+
+   // struct cell *S[N] = {1, 3, 6, NULL, NULL, NULL, 8, NULL, NULL, NULL};
    // printf("*S :>> %p\n", S);
 
    printf("preorder = ");

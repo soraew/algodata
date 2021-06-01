@@ -24,6 +24,6 @@ int ssum(int *a, int b, int n){
 int main (int argc, char *argv[]) {
    int n = 5, b = 11, *a={3, 7, 5, 8, 2};
    // print_arr_arr(y, n, b+1);
-   printf("first :>> %d\n", first);
+   // printf("first :>> %d\n", first);
    return 0;
 } 
