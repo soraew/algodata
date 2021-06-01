@@ -13,10 +13,10 @@ void intersection(struct cell A, struct cell B, struct cell C){
    struct cell *c;
 
    // printf("");
-   
-   while (q!=NULL){
+
+   while (q != NULL){
       struct cell *r;
-      while (r!=NULL){
+      while (r != NULL){
          c->node = q->node * r->node;
          r = r->next;
          c = c->next;
